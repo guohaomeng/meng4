@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的作业</title>
+    <style type="text/css">
+		
+		
+        div{font-family:"Microsoft Yahei"}
+            .one{width:1500px;
+            height: 400px;
+            font-size:60px;
+          background-image: url(pictures/19.jpg) ;
+          border:1px  black;
+        
+            }
+            p{text-indent:2em;}
+            /*下面是为第四五六七块进行定位*/
+          .four,.five,.six,.seven{border: 1px  black;
+        
+          float: left;
+            width: 374px;
+            height: 40px;}
+          /*下面是为导航栏设置样式*/
+          .two{border:1px  black;
+          height:50px;
+          width:1500px;
+          font-size:20px;;}
+          /*设置链接样式*/
+          a:link {color:black;
+                  text-decoration: none;}
+          a:visited {color:rgb(26, 24, 24);}
+          /*划个大块试试，不定宽，防止变形*/
+          .biggest{border:1px black;
+        	margin:0px auto;
+          height:120%;
+          position: absolute;
+          left:0px;
+          top:0px;}
+          /*导航块和登录块放到一行*/
+          .twoone{float:left;}
+            .twotwo{float:right;}
+    
+    div#n1{   width:300px;
+        float:left;
+        transform:rotate(30deg);
+        -ms-transform:rotate(30deg); /* IE 9 */
+        -moz-transform:rotate(30deg); /* Firefox */
+        -webkit-transform:rotate(30deg); /* Safari and Chrome */
+        -o-transform:rotate(30deg); /* Opera */
+    }
+    div#n2
+    {   width:300px;
+        float:right;
+        transform:rotate(30deg);
+        -ms-transform:rotate(30deg); /* IE 9 */
+        -moz-transform:rotate(30deg); /* Firefox */
+        -webkit-transform:rotate(30deg); /* Safari and Chrome */
+        -o-transform:rotate(30deg); /* Opera */
+    }
+    li
+    {  
+        transition: background-color 0.5s;
+        -moz-transition: background-color 0.5s;	/* Firefox 4 */
+        -webkit-transition: background-color 0.5s;	/* Safari 和 Chrome */
+        -o-transition: background-color 0.5s;	/* Opera */
+}   
+    li:hover{
+        color:white;
+        background-color: rgb(252, 145, 5);
+    }
+    #l1{float:left;
+        width:7em;
+        height:1.5em;}   
+    .four,.five,.six,.seven{
+        float:left;
+    } 
+    img:hover{
+        opacity: 0.8;
+        filter:alpha(opacity=80);
+    }  
+        
+        
+        </style>
+</head>
+<body background="pictures/05.bmp">
+    <div class="biggest">
+            
+    
+  <div class="one"  align=center > 欢迎到来！<img src="pictures/12.jpeg"> </div><!--第一块，大标题(๑￫ܫ￩)-->
+  <div class="two"><!--第二块，导航栏(O_o)(o_O)-->
+  <div class="twoone">
+    <ul>
+        <li id="l1" style="list-style-type:none">
+                <a href="#">首页</a>
+        </li>
+        <li id="l1" style="list-style-type:none">
+                <a href="wodeziliao.html"" title="我的资料" target="_blank">我的资料</a>   
+        </li>
+        <li id="l1" style="list-style-type:none">
+                <a href="wodeyinyue.html"" target="_blank">我的音乐</a>
+        </li>
+        <li id="l1" style="list-style-type:none">
+                <a href="index3.html" target="_blank">我的学习</a> 
+        </li>
+        <li id="l1" style="list-style-type:none"><a href="wodedianying.html" target="_blank">我的电影</a></li>
+    </ul>  
+   </div><!--2.1块结束-->
+  <div class="twotwo">
+    <table><tr><td>
+    <form>用户名：
+    <input type="text" name="myname">  
+        密码：
+    <input type="password" name="mypassword">
+    <input type="submit" value="登录">
+  </form>
+  </td></tr></table>
+  </div><!--2.2块结束-->
+  </div><!--2大块结束-->
+  <div class="three"><!--第三块，正文部分 ^_~ !-->
+    <div>
+        <h2 id="a2"><center>我的主页</center></h2></div>
+        <script>
+                document.write("现在是："+Date())
+        </script>
+        <br />
+        <marquee style="color:orange;" id="zimu1" direction="left" scrollamount="3" onMouseOver="stop()" onMouseOut="start()">欢迎来到我的主页，查看我的博客！</marquee>   
+        <br /><br /><br /><br /><br />
+  <div id="n1">
+    <ul>
+        <li class="g1">专业：自动化类</li>
+        <li class="g1">班级：1803</li>
+        <li class="g1">姓名：郭浩盟</li>
+        <li class="g1">实验报告链接：<a href="sy.doc">sy.doc</a></li>
+    </ul>
+  </div>
+  <div id="n2">
+    <ul>
+        <li class="g1">专业：自动化类</li>
+        <li class="g1">班级：1803</li>
+        <li class="g1">姓名：郭浩盟</li>
+        <li class="g1">实验报告链接：<a href="sy.doc">sy.doc</a></li>
+    </ul>
+  </div>
+  </div>
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <div id="n3">
+  <div class="four"><!--第四块，与五六七一起放到最底下，平行展开-->
+  
+  <p id="passage one" > <a href="mailto：3020721699@qq.com?subject=关于此网页的一些看法&body=keep trying!">对此网页有什么建议，发送邮件给我</a> </p></div>
+  <div class=five><adress><br />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp东北大学秦皇岛分校</adress></div>
+  <div class="six">
+  <form action="save.php" method="POST">
+    <label><br />网页如何？</label>
+    <select>
+      <option value="perfect">perfect</option>
+      <option value="good">good</option>
+      <option value="just-so-so">just-so-so</option>
+    </select>
+  </form></div>
+  <div class="seven">
+  <p id="passage two">友情链接<a href="http://tw.neuq.edu.cn/"  title="点开看看吧">东北大学秦皇岛分校先锋网</a></p></div>
+  </div>
+</div>
+  </body>
+</html>

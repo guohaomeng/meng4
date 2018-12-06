@@ -1,0 +1,17 @@
+#one{width:100%;
+    height:100px;
+    border:1px solid black;
+    margin-bottom: 10px;}
+#two{width:28%;
+    height:800px;
+    border:1px solid red;
+    float:left;}
+    #three{width:71%;
+    height:800px;
+    border:1px solid red;
+    float:right;}
+nave{
+background-color:#eeeeee;
+line-height: 20em;
+float:left;
+padding:5px;}     
